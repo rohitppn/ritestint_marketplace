@@ -9,36 +9,21 @@ export default function CategoryList14() {
             <div className="listings_category_nav_list_menu">
               <ul className="mb0 d-flex ps-0">
                 <li>
-                  <a href="#">All Categories</a>
+                  <a href="#">All Jobs</a>
                 </li>
                 <li>
-                  <a href="#">Graphics & Design</a>
+                  <a href="#">Augmented Staffing</a>
                 </li>
                 <li>
                   <a className="active" href="#">
-                    Digital Marketing
+                    Full-time Resources
                   </a>
                 </li>
                 <li>
-                  <a href="#">Writing & Translation</a>
+                  <a href="#">High Skilled Contractual Workforce</a>
                 </li>
                 <li>
-                  <a href="#">Video & Animation</a>
-                </li>
-                <li>
-                  <a href="#">Music & Audio</a>
-                </li>
-                <li>
-                  <a href="#">Programming & Tech</a>
-                </li>
-                <li>
-                  <a href="#">Business</a>
-                </li>
-                <li>
-                  <a href="#">Lifestyle</a>
-                </li>
-                <li>
-                  <a href="#">Trending</a>
+                  <a href="#">Payrolling</a>
                 </li>
               </ul>
             </div>

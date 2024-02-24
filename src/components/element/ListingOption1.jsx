@@ -86,7 +86,7 @@ export default function ListingOption1() {
             <div className="dropdown-lists">
               <ul className="p-0 mb-0 text-center text-sm-start">
                 <li className="list-inline-item">
-                  <button
+                  {/* <button
                     onClick={listingToggle}
                     type="button"
                     className="open-btn filter-btn-left mb10"
@@ -99,10 +99,10 @@ export default function ListingOption1() {
                       alt="icon"
                     />
                     All Filter
-                  </button>
+                  </button> */}
                 </li>
                 <li className="list-inline-item position-relative d-none d-xl-inline-block">
-                  <button
+                  {/* <button
                     className="open-btn mb10 dropdown-toggle"
                     type="button"
                     data-bs-toggle="dropdown"
@@ -110,13 +110,13 @@ export default function ListingOption1() {
                   >
                     Delivery Time
                     <i className="fa fa-angle-down ms-2" />
-                  </button>
+                  </button> */}
                   <div className="dropdown-menu">
                     <div className="widget-wrapper pb25 mb0">
                       <div className="radio-element">
-                        {deliveryTime.map((item,i) => (
+                        {deliveryTime.map((item, i) => (
                           <div
-                            key={ i }
+                            key={i}
                             className="form-check d-flex align-items-center mb10"
                           >
                             <input
@@ -147,7 +147,7 @@ export default function ListingOption1() {
                   </div>
                 </li>
                 <li className="list-inline-item position-relative d-none d-xl-inline-block">
-                  <button
+                  {/* <button
                     className="open-btn mb10 dropdown-toggle"
                     type="button"
                     data-bs-toggle="dropdown"
@@ -155,13 +155,13 @@ export default function ListingOption1() {
                   >
                     Budget
                     <i className="fa fa-angle-down ms-2" />
-                  </button>
+                  </button> */}
                   <div className="dropdown-menu dd3">
                     <PriceDropdown1 />
                   </div>
                 </li>
                 <li className="list-inline-item position-relative d-none d-xl-inline-block">
-                  <button
+                  {/* <button
                     className="open-btn mb10 dropdown-toggle"
                     type="button"
                     data-bs-toggle="dropdown"
@@ -169,13 +169,13 @@ export default function ListingOption1() {
                   >
                     Level
                     <i className="fa fa-angle-down ms-2" />
-                  </button>
+                  </button> */}
                   <div className="dropdown-menu">
                     <LevelDropdown1 />
                   </div>
                 </li>
                 <li className="list-inline-item position-relative d-none d-xl-inline-block">
-                  <button
+                  {/* <button
                     className="open-btn mb10 dropdown-toggle"
                     type="button"
                     data-bs-toggle="dropdown"
@@ -183,7 +183,7 @@ export default function ListingOption1() {
                   >
                     Location
                     <i className="fa fa-angle-down ms-2" />
-                  </button>
+                  </button> */}
                   <div className="dropdown-menu dd4 pb20">
                     <LocationDropdown1 />
                   </div>

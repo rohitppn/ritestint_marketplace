@@ -99,17 +99,17 @@ export default function PopularServiceSlideCard1({
           <h5 className="list-title">
             <Link href={`/service-single/${data.id}`}>{data.title}</Link>
           </h5>
-          <div className="review-meta d-flex align-items-center">
-            <i className="fas fa-star fz10 review-color me-2" />
-            <p className="mb-0 body-color fz14">
+          {/* <div className="review-meta d-flex align-items-center"> */}
+          {/* <i className="fas fa-star fz10 review-color me-2" /> */}
+          {/* <p className="mb-0 body-color fz14">
               <span className="dark-color me-2">{data.rating}</span>
               {data.review}
-              reviews
+              Easy Apply
             </p>
-          </div>
+          </div> */}
           <hr className="my-2" />
           <div className="list-meta d-flex justify-content-between align-items-center mt15">
-            <a>
+            {/* <a>
               <span className="position-relative mr10">
                 <Image
                   height={30}
@@ -121,14 +121,17 @@ export default function PopularServiceSlideCard1({
                 <span className="online-badge" />
               </span>
               <span className="fz14">{data.author.name}</span>
-            </a>
+            </a> */}
+
             <div className="budget">
-              <p className="mb-0 body-color">
-                Starting at
-                <span className="fz17 fw500 dark-color ms-1">
+              <a href="https://forms.gle/kcRueBZheLDrJiTf7">
+                <p className="mb-0 body-color">
+                  Apply Now
+                  {/* <span className="fz17 fw500 dark-color ms-1">
                   ${data.price}
-                </span>
-              </p>
+                </span> */}
+                </p>
+              </a>
             </div>
           </div>
         </div>

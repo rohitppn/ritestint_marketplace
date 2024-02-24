@@ -55,16 +55,16 @@ export default function TrendingServiceCard1({ data }) {
               {data.title.slice(0, 40) + "..."}
             </Link>
           </h5>
-          <div className="review-meta d-flex align-items-center">
+          {/* <div className="review-meta d-flex align-items-center">
             <i className="fas fa-star fz10 review-color me-2" />
             <p className="mb-0 body-color fz14">
               <span className="dark-color me-2">{data.rating}</span>
               {data.review} reviews
             </p>
-          </div>
+          </div> */}
           <hr className="my-2" />
           <div className="list-meta d-flex justify-content-between align-items-center mt15">
-            <a className="d-flex" href="#">
+            {/* <a className="d-flex" href="#">
               <span className="position-relative mr10">
                 <Image
                   height={24}
@@ -76,14 +76,17 @@ export default function TrendingServiceCard1({ data }) {
                 <span className="online-badges" />
               </span>
               <span className="fz14">{data.author.name}</span>
-            </a>
+            </a> */}
             <div className="budget">
-              <p className="mb-0 body-color">
-                Starting at
-                <span className="fz17 fw500 dark-color ms-1">
+              <a href="https://forms.gle/kcRueBZheLDrJiTf7">
+                {" "}
+                <p className="mb-0 body-color">
+                  Apply Now
+                  {/* <span className="fz17 fw500 dark-color ms-1">
                   ${data.price}
-                </span>
-              </p>
+                </span> */}
+                </p>
+              </a>
             </div>
           </div>
         </div>

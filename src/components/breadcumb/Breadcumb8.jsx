@@ -46,45 +46,45 @@ export default function Breadcumb8() {
                     {data ? (
                       <a className="list-inline-item mb5-sm">
                         <span className="position-relative mr10">
-                          <Image
+                          {/* <Image
                             height={40}
                             width={40}
                             className="rounded-circle"
                             src={data.author.img}
                             alt="Freelancer Photo"
-                          />
-                          <span className="online-badge" />
+                          /> */}
+                          <span className="online-badg" />
                         </span>
                         <span className="fz14">{data.author.name}</span>
                       </a>
                     ) : (
                       <a className="list-inline-item mb5-sm">
                         <span className="position-relative mr10">
-                          <Image
+                          {/* <Image
                             height={40}
                             width={40}
                             className="rounded-circle"
                             src="/images/team/fl-d-1.png"
                             alt="Freelancer Photo"
-                          />
-                          <span className="online-badge" />
+                          /> */}
+                          <span className="online-badg" />
                         </span>
                         <span className="fz14">Eleanor Pena</span>
                       </a>
                     )}
 
-                    <p className="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs">
+                    {/* <p className="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs">
                       <i className="fas fa-star vam fz10 review-color me-2" />
                       4.82 94 reviews
-                    </p>
-                    <p className="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs">
+                    </p> */}
+                    {/* <p className="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs">
                       <i className="flaticon-file-1 vam fz20 me-2" />2 Order in
                       Queue
-                    </p>
-                    <p className="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs">
+                    </p> */}
+                    {/* <p className="mb-0 dark-color fz14 list-inline-item ml25 ml15-sm mb5-sm ml0-xs">
                       <i className="flaticon-website vam fz20 me-2" />
                       902 Views
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

@@ -8,10 +8,10 @@ export default function AllTimeSelling() {
               <span className="flaticon-cv" />
             </div>
             <div className="details">
-              <h4 className="title mt10 mb-3">Post a job</h4>
+              <h4 className="title mt10 mb-3">CONTINGENT STAFFING</h4>
               <p className="text">
-                It’s free and easy to post a job. Simply fill{" "}
-                <br className="d-none d-xxl-block" /> in a title, description.
+                Quickly scale your business team with{" "}
+                <br className="d-none d-xxl-block" />3 hours of onboarding time
               </p>
             </div>
           </div>
@@ -22,10 +22,11 @@ export default function AllTimeSelling() {
               <span className="flaticon-web-design" />
             </div>
             <div className="details">
-              <h4 className="title mt10 mb-3">Choose freelancers</h4>
+              <h4 className="title mt10 mb-3">ON-DEMAND WORKFORCE </h4>
               <p className="text">
-                It’s free and easy to post a job. Simply fill{" "}
-                <br className="d-none d-xxl-block" /> in a title, description.
+                Tech & Non-Tech high skilled individuals can be{" "}
+                <br className="d-none d-xxl-block" /> fdeployed for onsite and
+                offsite roles
               </p>
             </div>
           </div>
@@ -36,10 +37,11 @@ export default function AllTimeSelling() {
               <span className="flaticon-secure" />
             </div>
             <div className="details">
-              <h4 className="title mt10 mb-3">Pay safely</h4>
+              <h4 className="title mt10 mb-3">CONTRACTUAL STAFFING</h4>
               <p className="text">
-                It’s free and easy to post a job. Simply fill{" "}
-                <br className="d-none d-xxl-block" /> in a title, description.
+                We provide manpower on contract for as low as{" "}
+                <br className="d-none d-xxl-block" /> 6 months without statutory
+                compliances
               </p>
             </div>
           </div>
@@ -50,10 +52,10 @@ export default function AllTimeSelling() {
               <span className="flaticon-customer-service" />
             </div>
             <div className="details">
-              <h4 className="title mt10 mb-3">We’re here to help</h4>
+              <h4 className="title mt10 mb-3">FULL-TIME RESOURCING</h4>
               <p className="text">
-                It’s free and easy to post a job. Simply fill{" "}
-                <br className="d-none d-xxl-block" /> in a title, description.
+                Hire personnel for mid-senior, senior level{" "}
+                <br className="d-none d-xxl-block" /> seamlessly
               </p>
             </div>
           </div>

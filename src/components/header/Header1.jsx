@@ -39,36 +39,36 @@ export default function Header1() {
                       />
                     </Link>
                   </div>
-                  <div className="home1_style">
+                  {/* <div className="home1_style">
                     <Mega />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-auto px-0">
                 <div className="d-flex align-items-center">
                   <Navigation />
-                  <a
+                  {/* <a
                     className="login-info bdrl1 pl15-lg pl30"
                     data-bs-toggle="modal"
                     href="#exampleModalToggle"
                   >
                     <span className="flaticon-loupe" />
-                  </a>
-                  <Link
+                  </a> */}
+                  {/* <Link
                     className={`login-info mx15-lg mx30`}
                     href="/become-seller"
                   >
-                    <span className="d-none d-xl-inline-block">Become a</span>{" "}
-                    Client{" "}
-                  </Link>
-                  <Link className={`login-info mr15-lg mr30`} href="/login">
+                    <span className="d-none d-xl-inline-block">Register</span>{" "}
+                    Now{" "}
+                  </Link> */}
+                  {/* <Link className={`login-info mr15-lg mr30`} href="/login">
                     Sign in
-                  </Link>
+                  </Link> */}
                   <Link
                     className="ud-btn btn-white add-joining"
                     href="/register"
                   >
-                    Join
+                    Apply Now
                   </Link>
                 </div>
               </div>

@@ -17,9 +17,9 @@ export default function Navigation() {
             : ""
         } `}
       >
-        {navigation.map((item,i) => (
+        {navigation.map((item, i) => (
           <li
-            key={ i }
+            key={i}
             className={`visible_list menu-active ${
               item.id == 1 ? "home-menu-parent" : ""
             } `}
@@ -45,7 +45,7 @@ export default function Navigation() {
 
             {item.children && (
               <ul className={`sub-menu ${item.id == 1 ? "home-menu" : ""} `}>
-                {item.children?.map((item2,i2) => (
+                {item.children?.map((item2, i2) => (
                   <li
                     key={i2}
                     className={`menu-active ${
@@ -67,7 +67,7 @@ export default function Navigation() {
 
                     {item2.children && (
                       <ul className="sub-menu">
-                        {item2.children?.map((item3,i3) => (
+                        {item2.children?.map((item3, i3) => (
                           <li
                             key={i3}
                             className={

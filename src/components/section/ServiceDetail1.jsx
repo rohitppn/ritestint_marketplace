@@ -2,6 +2,7 @@
 import ServiceDetailComment1 from "../element/ServiceDetailComment1";
 import ServiceDetailExtra1 from "../element/ServiceDetailExtra1";
 import ServiceDetailFaq1 from "../element/ServiceDetailFaq1";
+import ServiceDetailFaq2 from "../element/ServiceDetailFaq2";
 import ServiceDetailPrice1 from "../element/ServiceDetailPrice1";
 import ServiceDetailReviewInfo1 from "../element/ServiceDetailReviewInfo1";
 import ServiceDetailSlider1 from "../element/ServiceDetailSlider1";
@@ -22,48 +23,89 @@ export default function ServiceDetail1() {
                 <div className="column">
                   <ServiceDetailSlider1 />
                   <div className="service-about">
-                    <h4>About</h4>
+                    <h4>Qualifications:</h4>
                     <p className="text mb30">
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. The point of using Lorem Ipsum is that it
-                      has a more-or-less normal distribution of letters, as
-                      opposed to using 'Content here, content here', making it
-                      look like readable English.
+                      Bachelor's degree in Economics, Finance, Real Estate, or
+                      related field; master's degree preferred. 2-3 years of
+                      experience in market research, data analysis, preferably
+                      in real estate with GIS knowledge. Strong analytical
+                      skills, proficient in tools like Excel; familiarity with
+                      SPSS or R. Knowledge of data visualization tools (e.g.,
+                      Tableau, Power BI) is desirable. Excellent written and
+                      verbal communication skills for presenting research
+                      findings. Detail-oriented, committed to producing accurate
+                      and reliable research outputs. Self-motivated team player
+                      with the ability to work independently. Knowledge of the
+                      real estate market and industry trends is advantageous.
                     </p>
                     <p className="text mb-0">Services I provide:</p>
-                    <p className="text mb-0">1) Website Design</p>
-                    <p className="text mb-0">2) Mobile App Design</p>
-                    <p className="text mb-0">3) Brochure Design</p>
-                    <p className="text mb-0">4) Business Card Design</p>
-                    <p className="text mb30">5) Flyer Design</p>
+                    <p className="text mb-0">
+                      1) Conduct comprehensive market research on Delhi's real
+                      estate (residential, commercial, and industrial sectors).
+                    </p>
+                    <p className="text mb-0">
+                      2) Analyze data from various sources, including market
+                      reports, listings, and government databases.
+                    </p>
+                    <p className="text mb-0">
+                      3) Monitor market trends, economic indicators, and
+                      regulatory changes.
+                    </p>
+                    <p className="text mb-0">
+                      4) Evaluate the competitive landscape, including market
+                      dynamics, pricing trends, and competitor activities.
+                    </p>
                     <p className="text mb30">
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, and a search
-                      for 'lorem ipsum' will uncover many web sites still in
-                      their infancy. Various versions have evolved over the
-                      years, sometimes by accident, sometimes on purpose
-                      (injected humour and the like).
+                      5) Utilize statistical tools and data visualization for
+                      reporting.
+                    </p>
+                    <p className="text mb30">
+                      Collaborate with teams to identify opportunities, assess
+                      risks, and develop strategies.
+                    </p>
+                    <p className="text mb30">
+                      Provide recommendations based on research findings for
+                      decision-making.
+                    </p>
+                    <p className="text mb30">
+                      Assist in refining data collection and analytical
+                      frameworks.
+                    </p>
+                    <p className="text mb30">
+                      Stay updated on industry best practices and emerging
+                      technologies.
+                    </p>
+                    <p className="text mb30">
+                      Maintain accurate records of research findings and data
+                      sources.
+                    </p>
+                    <p className="text mb30">
+                      This candidate is expected to bring a combination of
+                      educational background, technical skills, and industry
+                      knowledge to contribute effectively to comprehensive
+                      market research activities in the real estate domain.
                     </p>
                     <div className="d-flex align-items-start mb50">
                       <div className="list1">
                         <h6>App type</h6>
-                        <p className="text mb-0">Business, Food &amp; drink,</p>
-                        <p className="text">Graphics &amp; design</p>
+                        <p className="text mb-0">
+                          Research Analyst &amp; Real Estate
+                        </p>
+                        {/* <p className="text">Graphics &amp; design</p> */}
                       </div>
-                      <div className="list1 ml80">
+                      {/* <div className="list1 ml80">
                         <h6>Design tool</h6>
                         <p className="text mb-0">Adobe XD, Figma,</p>
                         <p className="text">Adobe Photoshop</p>
-                      </div>
-                      <div className="list1 ml80">
+                      </div> */}
+                      {/* <div className="list1 ml80">
                         <h6>Device</h6>
                         <p className="text">Mobile, Desktop</p>
-                      </div>
+                      </div> */}
                     </div>
-                    <hr className="opacity-100 mb60" />
-                    <h4>Compare Packages</h4>
-                    <div className="table-style2 table-responsive bdr1 mt30 mb60">
+                    {/* <hr className="opacity-100 mb60" /> */}
+                    {/* <h4>Compare Packages</h4> */}
+                    {/* <div className="table-style2 table-responsive bdr1 mt30 mb60">
                       <table className="table table-borderless mb-0">
                         <thead className="t-head">
                           <tr>
@@ -176,16 +218,20 @@ export default function ServiceDetail1() {
                           </tr>
                         </tbody>
                       </table>
-                    </div>
+                    </div> */}
                     <hr className="opacity-100 mb60" />
-                    <h4>Frequently Asked Questions</h4>
+                    <h4>For Job Seekers</h4>
                     <ServiceDetailFaq1 />
                     <hr className="opacity-100 mb60" />
-                    <h4>Add Extra Services</h4>
-                    <ServiceDetailExtra1 />
-                    <hr className="opacity-100 mb15" />
-                    <ServiceDetailReviewInfo1 />
-                    <ServiceDetailComment1 />
+                    <h4>For Businesses</h4>
+                    <ServiceDetailFaq2 />
+
+                    {/* <hr className="opacity-100 mb60" /> */}
+                    {/* <h4>Add Extra Services</h4> */}
+                    {/* <ServiceDetailExtra1 /> */}
+                    {/* <hr className="opacity-100 mb15" /> */}
+                    {/* <ServiceDetailReviewInfo1 /> */}
+                    {/* <ServiceDetailComment1 /> */}
                   </div>
                 </div>
               </div>
@@ -197,7 +243,7 @@ export default function ServiceDetail1() {
                         <div className="scrollbalance-inner" style={style}>
                           <div className="blog-sidebar ms-lg-auto">
                             <ServiceDetailPrice1 />
-                            <ServiceContactWidget1 />
+                            {/* <ServiceContactWidget1 /> */}
                           </div>
                         </div>
                       )}

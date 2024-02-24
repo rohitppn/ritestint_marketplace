@@ -15,7 +15,7 @@ export default function Testimonial1() {
 
   return (
     <>
-      <section className="our-testimonial">
+      {/* <section className="our-testimonial">
         <div className="container">
           <div className="row">
             <div
@@ -76,7 +76,7 @@ export default function Testimonial1() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

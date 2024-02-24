@@ -33,7 +33,7 @@ export default function TrendingService1() {
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-4 mb-lg-2">
                 <Link className="ud-btn2" href="/service-1">
-                  All Categories
+                  All Jobs
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>
@@ -69,8 +69,8 @@ export default function TrendingService1() {
                       },
                     }}
                   >
-                    {product1.slice(0, 6).map((item,i) => (
-                      <SwiperSlide key={ i }>
+                    {product1.slice(0, 6).map((item, i) => (
+                      <SwiperSlide key={i}>
                         <TrendingServiceCard1 data={item} />
                       </SwiperSlide>
                     ))}

@@ -20,10 +20,10 @@ export default function ServiceContactWidget1() {
             <h5 className="title mb-1">Kristin Watson</h5>
             <p className="mb-0">Dog Trainer</p>
             <div className="review">
-              <p>
+              {/* <p>
                 <i className="fas fa-star fz10 review-color pr10" />
                 <span className="dark-color">4.9</span> (595 reviews)
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -33,12 +33,12 @@ export default function ServiceContactWidget1() {
             <a className="meta fw500 text-start">
               Location
               <br />
-              <span className="fz14 fw400">London</span>
+              <span className="fz14 fw400">Delhi</span>
             </a>
             <a className="meta fw500 text-start">
               Rate
               <br />
-              <span className="fz14 fw400">$90 / hr</span>
+              <span className="fz14 fw400">Easy Apply</span>
             </a>
             <a className="meta fw500 text-start">
               Job Success

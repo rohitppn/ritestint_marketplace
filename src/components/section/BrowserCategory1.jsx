@@ -27,17 +27,18 @@ export default function BrowserCategory1() {
           >
             <div className="col-lg-9">
               <div className="main-title2">
-                <h2 className="title">Browse talent by Augmented Staffing</h2>
+                <h2 className="title">Our Expertise</h2>
                 <p className="paragraph">
-                  RiteStint Contingent Workforce Engagement Models
+                  With 82% success rate in the key domains, we can quickly scale
+                  up your business teams
                 </p>
               </div>
             </div>
             <div className="col-lg-3">
               <div className="text-start text-lg-end mb-4 mb-lg-2">
                 <Link className="ud-btn2" href="/service-2">
-                  All Jobs
-                  <i className="fal fa-arrow-right-long" />
+                  {/* All Jobs */}
+                  {/* <i className="fal fa-arrow-right-long" /> */}
                 </Link>
               </div>
             </div>

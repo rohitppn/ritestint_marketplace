@@ -11,7 +11,7 @@ import Testimonial1 from "@/components/section/Testimonial1";
 import TrendingService1 from "@/components/section/TrendingService1";
 
 export const metadata = {
-  title: "Ritestint - Freelance Marketplace | Home 1",
+  title: "Ritestint - Freelance Marketplace",
 };
 
 export default function page() {
@@ -25,6 +25,7 @@ export default function page() {
       <CounterInfo1 />
       <Testimonial1 />
       <About1 />
+      {/* <OurBlog1 /> */}
       <OurPartner1 />
       <OurCta1 />
     </>

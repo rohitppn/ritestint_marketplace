@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 export default function CounterInfo1(notBorder) {
   return (
     <>
-      <section className="pb0 pt60">
+      {/* <section className="pb0 pt60">
         <div className={`container maxw1600 ${notBorder ? "" : "bdrb1"}  pb60`}>
           <div
             className="row justify-content-center wow fadeInUp"
@@ -101,7 +101,7 @@ export default function CounterInfo1(notBorder) {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

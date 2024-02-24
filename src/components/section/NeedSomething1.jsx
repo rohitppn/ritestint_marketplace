@@ -8,7 +8,7 @@ export default function NeedSomething1() {
           <div className="row">
             <div className="col-lg-12">
               <div className="main-title text-center">
-                <h2>Need something done?</h2>
+                <h2>Services</h2>
                 <p className="text">
                   Most viewed and all-time top-selling services
                 </p>

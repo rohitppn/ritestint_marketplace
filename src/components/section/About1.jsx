@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 export default function About1() {
   return (
@@ -19,7 +19,7 @@ export default function About1() {
                 <div className="iconbox-small2 d-none d-md-block wow fadeInLeft">
                   <span className="icon flaticon-review" />
                   <div className="details">
-                    <h6>+12M</h6>
+                    <h6>+12T</h6>
                     <p className="text fz13 mb-0">Project Completed</p>
                   </div>
                 </div>
@@ -52,35 +52,40 @@ export default function About1() {
                 data-wow-delay="300ms"
               >
                 <h2 className="text-white mb35">
-                  Join World's Best Marketplace{' '}
-                  <br className="d-none d-lg-block" /> for Workers
+                  RiteStint: Agile Talent, Fast Fit{" "}
+                  <br className="d-none d-lg-block" />
                 </h2>
                 <p className="text text-white mb35">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
+                  RiteStint, a tech-driven staffing and recruitment company
+                  headquartered in Jaipur, India, understands the fast-paced
+                  nature of modern business. We specialize in helping companies
+                  of all sizes and across diverse industries quickly and
+                  efficiently access the right talent they need to thrive.
+                  Unlike traditional agencies, we leverage cutting-edge AI
+                  technology and a vast network of skilled professionals to
+                  deliver innovative and efficient staffing solutions.
                 </p>
                 <div className="list-style2 light-style">
                   <ul className="mb30">
                     <li>
                       <i className="far fa-check" />
-                      Connect to freelancers with proven business experience
+                      Agile Solutions
                     </li>
                     <li>
                       <i className="far fa-check" />
-                      Get matched with the perfect talent by a customer success
-                      manager
+                      Data-Driven Decisions
                     </li>
                     <li>
                       <i className="far fa-check" />
-                      Unmatched quality of remote, hybrid, and flexible jobs
+                      Seamless Staffing Experience
                     </li>
                   </ul>
                 </div>
-                <Link href="/freelancer-1" className="ud-btn btn-thm">
-                  Find Talent
+                <Link
+                  href="https://forms.gle/kcRueBZheLDrJiTf7"
+                  className="ud-btn btn-thm"
+                >
+                  Apply Now
                   <i className="fal fa-arrow-right-long" />
                 </Link>
               </div>

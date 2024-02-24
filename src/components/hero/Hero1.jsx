@@ -18,7 +18,7 @@ const role = [
   "Programming & Tech",
 ];
 
-const popular = ["Full-time Resources", "Contractual Workforce", "Payrolling"];
+const popular = ["", "", ""];
 
 const hero = ["/images/home/home.jpg", "/images/home/home2.jpeg"];
 
@@ -168,7 +168,7 @@ export default function Hero1() {
                   </div>
                   <div className="d-none d-md-flex mt30 banner-text animate-up-5">
                     <p className="hero-text fz15 me-2 text-white mb-0">
-                      Augmented Staffing
+                      {/* Augmented Staffing */}
                     </p>
                     {popular.map((elm, i) => (
                       <a

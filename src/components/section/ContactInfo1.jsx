@@ -9,8 +9,12 @@ export default function ContactInfo1() {
                 <div className="main-title">
                   <h4 className="form-title mb25">Keep In Touch With Us.</h4>
                   <p className="text">
-                    Neque convallis a cras semper auctor. Libero id faucibus
-                    nisl tincidunt egetnvallis.
+                    RiteStint is a tech-enabled platform to cater your FTE, Gig
+                    and Contractual requirements. We are a robust, young and
+                    dynamic team and aim to become the pioneer of the staffing
+                    industry through our large pool of talent, sourcing team and
+                    digital marketing channels that helps us quickly close a
+                    requirement.
                   </p>
                 </div>
                 <div className="iconbox-style1 contact-style d-flex align-items-start mb30">
@@ -20,8 +24,8 @@ export default function ContactInfo1() {
                   <div className="details">
                     <h5 className="title">Address</h5>
                     <p className="mb-0 text">
-                      328 Queensberry Street, North <br /> Melbourne VIC 3051,
-                      Australia.
+                      A-17, Krishna Nagar, Lal Kothi, <br /> M Jaipur (RJ) -
+                      302015.
                     </p>
                   </div>
                 </div>
@@ -31,7 +35,7 @@ export default function ContactInfo1() {
                   </div>
                   <div className="details">
                     <h5 className="title">Phone</h5>
-                    <p className="mb-0 text">+(0) 392 94 03 01</p>
+                    <p className="mb-0 text">+(91) 90-53-90-53-90</p>
                   </div>
                 </div>
                 <div className="iconbox-style1 contact-style d-flex align-items-start mb30">
@@ -40,7 +44,7 @@ export default function ContactInfo1() {
                   </div>
                   <div className="details">
                     <h5 className="title">Email</h5>
-                    <p className="mb-0 text">hello@freeio.com</p>
+                    <p className="mb-0 text">social@ritestint.com</p>
                   </div>
                 </div>
               </div>

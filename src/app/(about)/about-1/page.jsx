@@ -9,7 +9,7 @@ import PriceTable1 from "@/components/section/PriceTable1";
 import Testimonial1 from "@/components/section/Testimonial1";
 
 export const metadata = {
-  title: "Ritstint - Freelance Marketplace | About 1",
+  title: "Ritstint - Freelance Marketplace",
 };
 
 export default function page() {
@@ -21,7 +21,7 @@ export default function page() {
       <CounterInfo1 />
       <Testimonial1 />
       <About4 />
-      <PriceTable1 />
+      {/* <PriceTable1 /> */}
       <OurPartner1 />
       <OurCta1 />
     </>

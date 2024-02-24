@@ -33,14 +33,14 @@ export default function Header3() {
               <div className="col-auto">
                 <div className="d-flex align-items-center">
                   <Navigation />
-                  <a
+                  {/* <a
                     className="login-info bdrl1 pl15-lg pl30"
                     data-bs-toggle="modal"
                     href="#exampleModalToggle"
                   >
                     <span className="flaticon-loupe" />
-                  </a>
-                  <Link
+                  </a> */}
+                  {/* <Link
                     className={`login-info mx15-lg mx30 ${
                       path === "/become-seller" ? "ui-active" : ""
                     }`}
@@ -48,17 +48,17 @@ export default function Header3() {
                   >
                     <span className="d-none d-xl-inline-block">Become a</span>{" "}
                     Seller
-                  </Link>
-                  <Link
+                  </Link> */}
+                  {/* <Link
                     className={`login-info mr15-lg mr30 ${
                       path === "/login" ? "ui-active" : ""
                     }`}
                     href="/login"
                   >
                     Sign in
-                  </Link>
+                  </Link> */}
                   <Link className="ud-btn btn-thm add-joining" href="/register">
-                    Join
+                    Apply Now
                   </Link>
                 </div>
               </div>

@@ -11,7 +11,7 @@ export default function Pagination1() {
           path === "/blog-2" || path === "/blog-3" ? "mb40-md" : ""
         } ${path === "/shop-list" ? "mt30" : ""}`}
       >
-        <ul className="page_navigation">
+        {/* <ul className="page_navigation">
           <li className="page-item">
             <a className="page-link">
               <span className="fas fa-angle-left" />
@@ -45,10 +45,10 @@ export default function Pagination1() {
               <span className="fas fa-angle-right" />
             </a>
           </li>
-        </ul>
-        <p className="mt10 mb-0 pagination_page_count text-center">
+        </ul> */}
+        {/* <p className="mt10 mb-0 pagination_page_count text-center">
           1 – 20 of 300+ property available
-        </p>
+        </p> */}
       </div>
     </>
   );

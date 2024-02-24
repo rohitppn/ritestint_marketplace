@@ -1,34 +1,36 @@
+"use client";
 import Link from "next/link";
 import Mega from "./Mega";
-import MobileNavigation2 from "./MobileNavigation2";
-import Navigation from "./Navigation";
 import Image from "next/image";
+import Navigation from "./Navigation";
 import useStickyMenu from "@/hook/useStickyMenu";
+import MobileNavigation1 from "./MobileNavigation1";
 
-export default function Header2() {
+export default function Header1() {
   const sticky = useStickyMenu(50);
+
   return (
     <>
       <header
-        className={`header-nav nav-homepage-style stricky main-menu border-0 slideIn animated  ${
+        className={`header-nav nav-homepage-style stricky main-menu animated   ${
           sticky ? "slideInDown stricky-fixed" : "slideIn"
         }`}
       >
         <nav className="posr">
-          <div className="container posr">
+          <div className="container-fluid posr menu_bdrt1 px30">
             <div className="row align-items-center justify-content-between">
-              <div className="col-auto px-0 px-xl-3">
+              <div className="col-auto px-0">
                 <div className="d-flex align-items-center justify-content-between">
-                  <div className="logos">
-                    <Link className="header-logo logo1" href="/home-2">
+                  <div className="logos br-white-light pr30 pr5-xl">
+                    <Link className="header-logo logo1" href="/">
                       <Image
-                        height={40}
-                        width={133}
-                        src="/images/header-logo.svg"
+                        height={80}
+                        width={150}
+                        src="/images/header-logo4.svg"
                         alt="Header Logo"
                       />
                     </Link>
-                    <Link className="header-logo logo2" href="/home-2">
+                    <Link className="header-logo logo2" href="/">
                       <Image
                         height={40}
                         width={133}
@@ -37,36 +39,36 @@ export default function Header2() {
                       />
                     </Link>
                   </div>
-                  <div className="home1_style at-home2">
+                  {/* <div className="home1_style">
                     <Mega />
-                  </div>
-                  <Navigation />
+                  </div> */}
                 </div>
               </div>
-              <div className="col-auto pe-0 pe-xl-3">
+              <div className="col-auto px-0">
                 <div className="d-flex align-items-center">
-                  <a
-                    className="login-info"
+                  <Navigation />
+                  {/* <a
+                    className="login-info bdrl1 pl15-lg pl30"
                     data-bs-toggle="modal"
                     href="#exampleModalToggle"
                   >
                     <span className="flaticon-loupe" />
-                  </a>
-                  <Link
-                    className="login-info mx15-xl mx30"
+                  </a> */}
+                  {/* <Link
+                    className={`login-info mx15-lg mx30`}
                     href="/become-seller"
                   >
-                    <span className="d-none d-xl-inline-block">Become a</span>
-                    Seller
-                  </Link>
-                  <Link className="login-info mr15-xl mr30" href="/login">
+                    <span className="d-none d-xl-inline-block">Register</span>{" "}
+                    Now{" "}
+                  </Link> */}
+                  {/* <Link className={`login-info mr15-lg mr30`} href="/login">
                     Sign in
-                  </Link>
+                  </Link> */}
                   <Link
-                    className="ud-btn btn-white add-joining bdrs50 text-thm2"
+                    className="ud-btn btn-white add-joining"
                     href="/register"
                   >
-                    Join
+                    Apply Now
                   </Link>
                 </div>
               </div>
@@ -74,7 +76,7 @@ export default function Header2() {
           </div>
         </nav>
       </header>
-      <MobileNavigation2 />
+      <MobileNavigation1 />
     </>
   );
 }

@@ -11,7 +11,7 @@ export default function ServiceDetailFaq1() {
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
               >
-                What methods of payments are supported?
+                What's the difference between your staffing solutions?
               </button>
             </h2>
             <div
@@ -21,10 +21,9 @@ export default function ServiceDetailFaq1() {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus,
-                scelerisque volutpat nec sit vel donec. Sagittis, id volutpat
-                erat vel.
+                Temporary for short-term needs, contract for mid-term projects
+                with defined end dates, full-time for permanent additions to
+                your team.
               </div>
             </div>
           </div>
@@ -36,7 +35,7 @@ export default function ServiceDetailFaq1() {
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
               >
-                Can I cancel at anytime?
+                How does your AI matching work?
               </button>
             </h2>
             <div
@@ -46,10 +45,8 @@ export default function ServiceDetailFaq1() {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus,
-                scelerisque volutpat nec sit vel donec. Sagittis, id volutpat
-                erat vel.
+                It goes beyond keywords, analyzing your job description, skills,
+                experience, and cultural fit to identify top candidates
               </div>
             </div>
           </div>
@@ -61,7 +58,7 @@ export default function ServiceDetailFaq1() {
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
               >
-                How do I get a receipt for my purchase?
+                How do you ensure candidate qualifications?
               </button>
             </h2>
             <div
@@ -71,10 +68,8 @@ export default function ServiceDetailFaq1() {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus,
-                scelerisque volutpat nec sit vel donec. Sagittis, id volutpat
-                erat vel.
+                Partnering with reputable sources, thorough screening processes,
+                and relevant background checks as per your requirements.
               </div>
             </div>
           </div>
@@ -86,7 +81,7 @@ export default function ServiceDetailFaq1() {
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
               >
-                Which license do I need?
+                What's your onboarding process like?
               </button>
             </h2>
             <div
@@ -96,10 +91,8 @@ export default function ServiceDetailFaq1() {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus,
-                scelerisque volutpat nec sit vel donec. Sagittis, id volutpat
-                erat vel.
+                We collaborate with you to tailor a smooth process, including
+                paperwork, training, and introductions to your team.
               </div>
             </div>
           </div>
@@ -111,7 +104,7 @@ export default function ServiceDetailFaq1() {
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFive"
               >
-                How do I get access to a theme I purchased?
+                Do you handle payroll and compliance for contract workers?
               </button>
             </h2>
             <div
@@ -121,10 +114,9 @@ export default function ServiceDetailFaq1() {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                Cras vitae ac nunc orci. Purus amet tortor non at phasellus
-                ultricies hendrerit. Eget a, sit morbi nunc sit id massa. Metus,
-                scelerisque volutpat nec sit vel donec. Sagittis, id volutpat
-                erat vel.
+                Yes, we handle all payroll processing and tax compliance for
+                accurate and timely payments, reducing your administrative
+                burden.
               </div>
             </div>
           </div>

@@ -187,8 +187,8 @@ export default function About4() {
                   data-wow-delay="300ms"
                 >
                   <h2 className="title mb10">
-                    Truested By Best <br />
-                    Freelancer
+                    Hire skilled <br />
+                    workers
                   </h2>
                   <p className="text mb25 mb30-md">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

@@ -41,7 +41,7 @@ export default function Breadcumb4() {
             height={300}
             width={532}
             className="service-v1-vector bounce-y d-none d-lg-block"
-            src="/images/vector-img/vector-service-v1.png"
+            src="/images/vector-img/hiring.jpg"
             alt="vector-img"
           />
 
@@ -57,10 +57,10 @@ export default function Breadcumb4() {
                     path === "/service-5" ? "pl80 pl0-sm" : ""
                   }`}
                 >
-                  <h2>Design &amp; Creative</h2>
+                  <h2>Augmented &amp; Staffing</h2>
                   <p className="text mb30">
-                    Give your visitor a smooth online experience with a solid UX
-                    design
+                    Deployment of temporary or contingent resources to meet
+                    unforeseen or short term needs.
                   </p>
                   <div className="d-flex align-items-center">
                     <a
@@ -69,7 +69,7 @@ export default function Breadcumb4() {
                     >
                       <i className="fal fa-play" />
                     </a>
-                    <h6 className="mb-0">How Freeio Works</h6>
+                    <h6 className="mb-0">How Ritestnt Works</h6>
                   </div>
                 </div>
               </div>
@@ -77,10 +77,7 @@ export default function Breadcumb4() {
           </div>
         </div>
       </section>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/watch?v=7EHnQ0VM4KY"]}
-      />
+      <FsLightbox toggler={toggler} sources={["#"]} />
     </>
   );
 }

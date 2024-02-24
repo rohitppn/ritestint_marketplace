@@ -23,7 +23,7 @@ export default function ServiceDetailSlider1() {
 
   return (
     <>
-      <div className="scrollbalance-inner">
+      {/* <div className="scrollbalance-inner">
         <div className="row">
           <div className="col-sm-6 col-md-4">
             <div className="iconbox-style1 contact-style d-flex align-items-start mb30">
@@ -31,8 +31,8 @@ export default function ServiceDetailSlider1() {
                 <span className="flaticon-calendar" />
               </div>
               <div className="details">
-                <h5 className="title">Delivery Time</h5>
-                <p className="mb-0 text">1-3 Days</p>
+                <h5 className="title">Full Time</h5>
+                <p className="mb-0 text">Immidiate Join</p>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ export default function ServiceDetailSlider1() {
               </div>
               <div className="details">
                 <h5 className="title">Location</h5>
-                <p className="mb-0 text">New York</p>
+                <p className="mb-0 text">Delhi</p>
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function ServiceDetailSlider1() {
             </Swiper>
           )}
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

@@ -14,31 +14,33 @@ export default function About3() {
             </div>
             <div className="col-lg-6">
               <p className="text mb20">
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters, as opposed to using 'Content
-                here, content here', making it look like readable English.
+                RiteStint is a tech-enabled platform to cater your FTE, Gig and
+                Contractual requirements. We are a robust, young and dynamic
+                team and aim to become the pioneer of the staffing industry
+                through our large pool of talent, sourcing team and digital
+                marketing channels that helps us quickly close a requirement.
               </p>
               <div className="list-style2">
                 <ul className="mb25">
                   <li>
                     <i className="far fa-check" />
-                    Connect to freelancers with proven business experience
+                    Deployment of temporary or contingent resources to meet
+                    unforeseen or short term needs
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Get matched with the perfect talent by a customer success
-                    manager
+                    Deployment of project or programme specific teams for a
+                    defined period and scope of work
                   </li>
                   <li>
                     <i className="far fa-check" />
-                    Unmatched quality of remote, hybrid, and flexible jobs
+                    Provision of strategic, large scale, resourcing solution to
+                    support fluctuating needs
                   </li>
                 </ul>
               </div>
               <a className="ud-btn btn-thm-border mb25 me-4">
-                Get Started
+                Apply Now
                 <i className="fal fa-arrow-right-long" />
               </a>
             </div>

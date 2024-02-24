@@ -13,7 +13,7 @@ export default function ListingSidebarModal1() {
 
   return (
     <>
-      <div className="lefttside-hidden-bar">
+      {/* <div className="lefttside-hidden-bar">
         <div className="hsidebar-header bdrb1">
           <h4 className="list-title">All filters</h4>
           <div onClick={listingToggle} className="sidebar-close-icon">
@@ -173,8 +173,8 @@ export default function ListingSidebarModal1() {
             </div>
           </div>
         </div>
-      </div>
-      <div onClick={listingToggle} className="hiddenbar-body-ovelay" />
+      </div> */}
+      {/* <div onClick={listingToggle} className="hiddenbar-body-ovelay" /> */}
     </>
   );
 }

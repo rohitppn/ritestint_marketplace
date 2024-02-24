@@ -17,9 +17,7 @@ export default function OurFaq1() {
             <div className="col-lg-6 m-auto">
               <div className="main-title text-center">
                 <h2 className="title">Frequently Asked Questions</h2>
-                <p className="paragraph mt10">
-                  Lorem ipsum dolor sit amet, consectetur.
-                </p>
+                <p className="paragraph mt10">For Job Seekers</p>
               </div>
             </div>
           </div>
@@ -38,7 +36,7 @@ export default function OurFaq1() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          What methods of payments are supported?
+                          What industries do you specialize in?
                         </button>
                       </h2>
                       <div
@@ -48,10 +46,9 @@ export default function OurFaq1() {
                         data-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
+                          We cover IT, engineering, marketing, sales,
+                          healthcare, and more! Our roles vary based on client
+                          needs.
                         </div>
                       </div>
                     </div>
@@ -65,7 +62,7 @@ export default function OurFaq1() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          Can I cancel at anytime?
+                          How long does the application process take?
                         </button>
                       </h2>
                       <div
@@ -75,10 +72,8 @@ export default function OurFaq1() {
                         data-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
+                          Submit your resume & cover letter. We review within 48
+                          hours and contact shortlisted candidates promptly.
                         </div>
                       </div>
                     </div>
@@ -92,7 +87,7 @@ export default function OurFaq1() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          How do I get a receipt for my purchase?
+                          Do you offer benefits for temporary positions?
                         </button>
                       </h2>
                       <div
@@ -102,10 +97,9 @@ export default function OurFaq1() {
                         data-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
+                          Benefits vary depending on the client and project
+                          duration. We strive to secure positions with them
+                          whenever possible.
                         </div>
                       </div>
                     </div>
@@ -119,7 +113,7 @@ export default function OurFaq1() {
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          Which license do I need?
+                          Can I work on multiple projects consecutively?
                         </button>
                       </h2>
                       <div
@@ -129,10 +123,9 @@ export default function OurFaq1() {
                         data-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
+                          Absolutely! Depending on skills, availability, and
+                          performance, we can connect you with various suitable
+                          projects.
                         </div>
                       </div>
                     </div>
@@ -146,7 +139,7 @@ export default function OurFaq1() {
                           aria-expanded="false"
                           aria-controls="collapseFive"
                         >
-                          How do I get access to a theme I purchased?
+                          How can I improve my chances of getting hired?
                         </button>
                       </h2>
                       <div
@@ -156,10 +149,9 @@ export default function OurFaq1() {
                         data-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Cras vitae ac nunc orci. Purus amet tortor non at
-                          phasellus ultricies hendrerit. Eget a, sit morbi nunc
-                          sit id massa. Metus, scelerisque volutpat nec sit vel
-                          donec. Sagittis, id volutpat erat vel.
+                          Keep your resume updated, highlight relevant skills,
+                          tailor your cover letter to each position, and
+                          practice your interview skills.
                         </div>
                       </div>
                     </div>
