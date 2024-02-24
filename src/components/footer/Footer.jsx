@@ -46,8 +46,8 @@ export default function Footer() {
                   About
                 </h5>
                 <div className="link-list">
-                  {about.map((item,i) => (
-                    <Link key={ i } href={item.path}>
+                  {about.map((item, i) => (
+                    <Link key={i} href={item.path}>
                       {item.name}
                     </Link>
                   ))}
@@ -70,8 +70,8 @@ export default function Footer() {
                   Categories
                 </h5>
                 <ul className="ps-0">
-                  {category.map((item,i) => (
-                    <li key={ i }>
+                  {category.map((item, i) => (
+                    <li key={i}>
                       <Link href={item.path}>{item.name}</Link>
                     </li>
                   ))}
@@ -94,15 +94,15 @@ export default function Footer() {
                   Support
                 </h5>
                 <ul className="ps-0">
-                  {support.map((item,i) => (
-                    <li key={ i }>
+                  {support.map((item, i) => (
+                    <li key={i}>
                       <Link href={item.path}>{item.name}</Link>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
-            <div className="col-sm-6 col-lg-3">
+            {/* <div className="col-sm-6 col-lg-3">
               <div className="footer-widget">
                 <div className="footer-widget mb-4 mb-sm-5">
                   <div className="mailchimp-widget">
@@ -149,7 +149,7 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="container white-bdrt1 py-4">
@@ -161,13 +161,13 @@ export default function Footer() {
                     path === "/home-11" ? "text-white" : "text-white-light"
                   } ff-heading`}
                 >
-                  © Freeio. 2023{" "}
+                  © Ritestint. 2024{" "}
                   <Link
-                    href="https://themeforest.net/user/ib-themes/portfolio"
+                    href="https://ritestint.com"
                     target="_blank"
                     style={{ color: "inherit" }}
                   >
-                    ib-themes
+                    Job search marketplace
                   </Link>
                   . All rights reserved.
                 </p>

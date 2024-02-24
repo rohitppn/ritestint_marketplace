@@ -52,7 +52,7 @@ a {
 
 .prev-btn:hover,
 .next-btn:hover {
-  background-color: #5bbb7b;
+  background-color: #00BAFF;
   color: #ffffff;
 }
 /* slider arrow end*/
@@ -137,7 +137,7 @@ a {
 }
 
 .price__range__box .example-track-1 {
-  background-color: #5bbb7b;
+  background-color: #00BAFF;
   height: 4px;
 }
 
@@ -147,7 +147,7 @@ a {
 
 .price__range__box .example-thumb {
   background-color: #ffffff;
-  border: 2px solid #5bbb7b !important;
+  border: 2px solid #00baff !important;
   border-radius: 50%;
   height: 12px;
   width: 12px;
@@ -256,12 +256,12 @@ a {
 }
 .ui-active,
 .ui-navigation .ui-active {
-  color: #5bbb7b !important;
+  color: #00BAFF !important;
 }
 
 .ui-navigation .ui-child-active {
   background-color: #f0efec !important;
-  border-left: 2px solid #5bbb7b !important;
+  border-left: 2px solid #00BAFF !important;
 }
 
 .employee-single-slider .next-btn {
@@ -283,7 +283,7 @@ a {
 }
 
 .ui-mobile-active > .ps-menu-button {
-  color: #5bbb7b !important;
+  color: #00BAFF !important;
 }
 
 .css-jn69v9,
@@ -310,13 +310,13 @@ a {
 }
 
 .ui-fav-active {
-  background-color: #5bbb7b !important;
+  background-color: #00BAFF !important;
   color: #fff !important;
 }
 
 /* hero search list active */
 .ui-list-active {
-  background-color: #5bbb7b;
+  background-color: #00BAFF;
 }
 
 .ui-list-active .item_title {
@@ -359,5 +359,5 @@ a {
   color: #222222;
 }
 .ui-social-media a:hover i {
-  color: #5bbb7b !important;
+  color: #00BAFF !important;
 }
