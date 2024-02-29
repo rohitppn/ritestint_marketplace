@@ -1,0 +1,27 @@
+// Import any necessary dependencies
+import { getAllServiceIds } from "some-service-utils"; // You need to implement this function to fetch dynamic IDs
+
+// Define the function to generate static params
+export async function generateStaticParams() {
+  const serviceIds = await getAllServiceIds(); // Function to fetch dynamic IDs
+
+  const paths = serviceIds.map((id) => ({
+    params: { id: id.toString() },
+  }));
+
+  return paths;
+}
+
+// Default export for your page component
+export default function Page() {
+  return (
+    <>
+      <TabSection1 />
+      <div className=" bgc-thm3">
+        <Breadcumb3 path={["Home", "Services", "Design & Creative"]} />
+        <ServiceDetail3 />
+        <PopulerService />
+      </div>
+    </>
+  );
+}
